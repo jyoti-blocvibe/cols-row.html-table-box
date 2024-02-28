@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+		}
+	</style>
+</head>
+<body>
+	<h2>Cell that spans two columns</h2>
+	<p>To make a cell span more than one column, use the colspan attribute.</p>
+
+	<table style="width:30%">
+		<tbody>
+			<tr>
+				<th>heading</th>
+				<th>heading</th>
+				<th>heading</th>
+				<th>heading</th>
+			</tr>
+			<tr>
+				<td rowspan="3">hello</td>
+				<td colspan="3">hi</td>
+			</tr>
+			<tr>
+				<td  colspan="3">grima</td>
+			</tr>
+			<tr>
+				<td  colspan="3">bottle</td>
+			</tr>
+			<tr>
+				<td  colspan="2">charger</td>
+				<td  colspan="2">laptop</td>
+			</tr>
+			<tr>
+				<td  colspan="3">charger2</td>
+				<td  colspan="1">laptop2</td>
+			</tr>
+			<tr>
+				<td rowspan="3" colspan="2">charger</td>
+				<td rowspan="3" colspan="2">laptop</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
